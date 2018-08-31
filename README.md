@@ -1,4 +1,4 @@
-# libprogbase v0.5.0
+# libprogbase v0.5.0 HOTFIX FOR MACOS :)
 
 [![Travis-CI][travis-badge]][travis-builds]
 
