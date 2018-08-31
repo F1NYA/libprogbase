@@ -1,5 +1,3 @@
-#ifdef __linux__
-
 #include <stdlib.h>
 #include <pthread.h>
 #include <stdbool.h>
@@ -60,5 +58,3 @@ bool Mutex_unlock(Mutex * self) {
 void Mutex_destroy(Mutex * self) {
 	pthread_mutex_destroy(&self->pmutex);
 }
-
-#endif // __linux__
