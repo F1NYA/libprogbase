@@ -11,16 +11,10 @@
 extern "C" {
 #endif
 
-#ifdef __linux__
-	#include <netinet/in.h>
-	struct IpAddress {
-		struct sockaddr_in addr;
-	};
-#else // for windows
-	struct IpAddress {
-		int _;
-	}
-#endif
+#include <netinet/in.h>
+struct IpAddress {
+	struct sockaddr_in addr;
+};
 
 /* IP Protocol */
 
