@@ -1,6 +1,3 @@
-#define _DEFAULT_SOURCE
-#define _POSIX_SOURCE
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
